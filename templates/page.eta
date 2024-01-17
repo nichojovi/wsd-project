@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback</title>
+</head>
+<body>
+    <% if (it) { %>
+        <p>Feedback <%= it.value %>: <%= it.count %></p>
+    <% } %>
+</body>
+</html>
